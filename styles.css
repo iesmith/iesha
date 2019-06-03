@@ -8,9 +8,48 @@ body{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
+    background: rgb(141,191,227);
+    background: linear-gradient(223deg, rgba(141,191,227,1) 0%, rgba(84,139,194,1) 100%);
 }
 
 .responsive {
     max-width: 100%;
     height: auto;
   }
+
+/* Scroll */
+.icon-scroll,
+.icon-scroll:before{
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll{
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+
+.icon-scroll:before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll{
+  0%
+    {opacity: 1;}
+  100%
+    {opacity: 0;
+    transform: translateY(46px);}
+}
