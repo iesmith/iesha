@@ -17,7 +17,7 @@ body{
     height: auto;
   }
 
-/* Scroll */
+/* Scroll 
 .icon-scroll,
 .icon-scroll:before{
   position: absolute;
@@ -53,3 +53,4 @@ body{
     {opacity: 0;
     transform: translateY(46px);}
 }
+*/
