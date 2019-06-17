@@ -244,6 +244,7 @@ footer  {
     display:grid;
     grid-template-columns: 30% 70%;
     grid-column-gap: 0.8em;
+    color:#616161;
   }
   
 
