@@ -210,6 +210,7 @@ footer  {
 
   #top{
     text-align:center;
+    background-image: url('images/top_bg.svg');
   }  
 
   #profile{
