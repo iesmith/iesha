@@ -20,6 +20,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+#body{
+  display:none;
+}
 #mobile_body{
   display:block;
 }
@@ -197,9 +200,23 @@ footer  {
 
 /*Tablet*/
 @media screen and (min-width: 768px) {
-    #mobile_body {
+  #body{
+    display:block;
+  }  
+  
+  #mobile_body {
       display:none;
     }
+
+  #top{
+    text-align:center;
+  }  
+
+  #profile{
+    width:2em;
+    margin-left: auto;
+    margin-right:auto;
+  }
 
     footer{
       padding:1em;
