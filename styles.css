@@ -25,8 +25,10 @@ body{
 }
 #mobile_top{
    background-image:url('images/face.svg');
+   background-repeat:no-repeat;
+   background-size:initial;
+   background-position:17em -5em;
 }
-
 
 #mobile_top h1{
     color:#FF7777;
@@ -37,8 +39,8 @@ body{
 #mobile_top p{
     color:#A74E4E;
     margin: .2em .2em 2em 1em;
-    width:73%;
-    font-size:1rem;
+    width:69%;
+    font-size:1.1rem;
 }
 
 .color_turn{
@@ -48,31 +50,55 @@ body{
 .grid_nav{
   display:grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 1em;
-  padding:1em;
-  margin-top:5em;
+  grid-column-gap: .5em;
+  padding: 1em 1em 1em 1em;
+  margin-top:3em;
+  font-size:1rem;
 
 }
 
 .grid_item{
   border: 2px solid #FF7777;
-  padding:.7em;
+  padding:.5em;
   text-align:center;
   background-color:white;
 }
 
 .grid_mobflow{
   display:grid;
-  grid-template-columns: 30% 70%;
-  grid-column-gap: .5em;
-  padding:1em;
+  grid-template-columns: 28% 68%;
+  grid-column-gap: 0.8em;
+  padding:0 .5em 2em 1em;
 
 }
 
+#mobile_workflow h1, #mobile_about h2{
+  color:#A74E4E;
+  text-align:center;
+  margin:.7em 0 0 0;
+  font-size:1.2rem;
+}
 .item_mobflow{
 
 }
-#mobile_top a{
+
+.item_mobflow:nth-child(even){
+  margin-top:3em;
+}
+
+.item_mobflow h2{
+  font-size:1rem;
+}
+
+.item_mobflow p {
+  margin-top:.5em;
+  font-size:1rem;
+}
+.item_mobflow img{
+    width:100%;
+    margin-top:20%;
+}
+a{
 
   color:#FF7777;
   text-decoration:none;
@@ -84,7 +110,107 @@ hr{
   background-color:#f9f9f9;
 }
 
+#mobile_about{
+  padding: 0 1em;
+  font-size:1rem;
 
+}
+
+#mobile_about p{
+  margin-top:1em;
+}
+footer{
+  padding:1em;
+  background-color:#FF7777;
+  color:white;
+  font-size:1rem;
+  clear:both;
+  
+}
+
+#back{
+  font-size:1rem;
+  float: right;
+  padding:.5em;
+  clear:both;
+}
+
+
+/* On screens that are 400px or less*/
+@media screen and (max-width: 400px) {
+  #mobile_top {
+    background-position:14em -7em;
+  }
+
+  #mobile_top p{
+    font-size:1rem;
+    width:65%;
+  }
+
+  .grid_nav{
+    font-size:.8rem;
+  }
+
+  .item_mobflow h2{
+    font-size:.9rem;
+  }
+
+  .item_mobflow p{
+    font-size:.8rem;
+  }
+
+  .grid_mobflow {
+    grid-template-columns: 30% 60%;
+    grid-column-gap: 1em;
+  }
+
+.item_mobflow:first-child{
+    padding-top:2em;
+}
+
+#mobile_workflow h1, #mobile_about h2{
+  font-size:1rem;
+}
+
+#mobile_about{
+  font-size:.8rem;
+}
+
+#back{
+  font-size:.8rem;
+}
+footer  {
+  font-size:.8rem;
+}
+
+} /*End of Query*/
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
+  #mobile_top{
+    background-position:14em -2em;
+    background-size:contain;
+  }
+
+
+}/*End of Query*/
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    #mobile_body {
+      display:none;
+    }
+
+    footer{
+      padding:1em;
+      background-color:#FF7777;
+      color:white;
+      font-size:1rem;
+      clear:both;
+    }
+    
+
+}/*End of Query*/
 
 
 
