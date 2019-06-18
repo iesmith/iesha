@@ -330,15 +330,16 @@ footer  {
   }
  
 .case_grid2{
-  width:95%;
+  width:auto;
+  grid-template-columns: auto auto auto;
 }
 
 .item_flow2{
   text-align:center;
 }
 .item_flow2 img{
-  width:145px;
-  height:145px;
+  width:15em;
+  height:auto;
 }
   .details{
     padding:2em 2em 0 2em;
