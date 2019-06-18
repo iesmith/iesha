@@ -203,7 +203,11 @@ footer  {
   #body{
     display:block;
     width:100%;
-  }  
+  }
+  
+  p{
+    color:#616161;
+  }
   
   #mobile_body {
       display:none;
@@ -211,7 +215,7 @@ footer  {
 
   #top{
     font-size:1rem;
-    padding-top:2em;
+    padding-top:2.5em;
     text-align:center;
     background-image: url('images/top_bg.png');
     background-repeat:no-repeat;
@@ -245,17 +249,111 @@ footer  {
     width:50px;
   }
 
-  #workflow{
-    display:grid;
-    grid-template-columns: 30% 70%;
-    grid-column-gap: 0.8em;
-    color:#616161;
-  }
-  
-  .figure{
+  #one{
     position:absolute;
+    right:14%;
+    bottom:62%;
   }
 
+  #two{
+    position:absolute;
+    left:3%;
+    top:12%;
+  }
+
+  #three{
+    position:absolute;
+    top:3%;
+    left:16%;
+  }
+
+  #four{
+    position:absolute;
+    top:7%;
+    right:5%;
+  }
+
+  #five{
+    position:absolute;
+    top:27%;
+    left:19%;
+  }
+
+  #workflow{
+    display:grid;
+    grid-template-columns: 27% 73%;
+    grid-column-gap: 0.8em;
+    padding:1em 2em;
+    color:#616161;
+  }
+
+  .grid_workflow:nth-child(2){
+    padding: 0 2em;
+    font-weight:700;
+    font-size:.8rem;
+  }
+
+  .grid_workflow h1{
+    font-weight:100;
+    text-align: center;
+    font-size:1.2rem;
+    padding-top:1em;
+  }
+
+  .case_grid{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 0.8em;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #steps{
+    padding-bottom:2em;
+  }
+  #steps h1, #more h1{
+    color:#CF5C5C;
+    font-size:1rem;
+    padding:2em;
+  }
+
+  #steps p, .takeaway, #more p{
+    font-size:.8rem;
+  }
+  .item_flow{
+    text-align:center;
+    width:20em;
+  }
+  .item_flow img{
+    width:80%;
+  }
+
+  .details{
+    padding:2em 2em 0 2em;
+  }
+
+  .details:last-child{
+    padding-top:0;
+  }
+
+  .takeaway{
+      font-weight:800;
+      padding: 0 2em;
+  }
+
+.takeaway span{
+  color:#FF7777;
+}
+
+#more h1{
+  text-align:center;
+  padding: 1em 2em;
+}
+
+#more p{
+  padding: 0 2em;
+}
     footer{
       padding:1em;
       background-color:#FF7777;
