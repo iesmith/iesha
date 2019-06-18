@@ -247,6 +247,9 @@ footer  {
     color:#616161;
   }
   
+  .figure{
+    position:absolute;
+  }
 
     footer{
       padding:1em;
