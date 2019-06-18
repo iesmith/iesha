@@ -300,7 +300,7 @@ footer  {
     padding-top:1em;
   }
 
-  .case_grid{
+  .case_grid, .case_grid2{
     display:grid;
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 0.8em;
@@ -328,8 +328,17 @@ footer  {
   .item_flow img{
     width:80%;
   }
+ 
+.case_grid2{
+  width:95%;
+}
+
+.item_flow2{
+  text-align:center;
+}
 .item_flow2 img{
-  
+  width:145px;
+  height:145px;
 }
   .details{
     padding:2em 2em 0 2em;
