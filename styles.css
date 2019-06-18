@@ -331,14 +331,14 @@ footer  {
  
 .case_grid2{
   width:auto;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 30% 30% 30%;
 }
 
 .item_flow2{
   text-align:center;
 }
 .item_flow2 img{
-  width:15em;
+  width:18em;
   height:auto;
 }
   .details{
