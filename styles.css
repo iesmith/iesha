@@ -330,8 +330,12 @@ footer  {
   }
  
 .case_grid2{
-  width:auto;
+  width:96%;
   grid-template-columns: 30% 30% 30%;
+  padding:0 3em;
+  margin-right:auto;
+  margin-left:auto;
+  
 }
 
 .item_flow2{
