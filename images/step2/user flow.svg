@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="595px" height="1060px" viewBox="0 0 595 1060" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Flow" transform="translate(-428.000000, -561.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1800" height="2208"></rect>
+            <g id="Group-4" transform="translate(428.000000, 561.000000)">
+                <g id="Group-3" transform="translate(0.000000, 503.000000)">
+                    <g id="screen">
+                        <g id="Group-7">
+                            <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                            <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                <tspan x="19.0296494" y="34.5">Home</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <path d="M70,30.75 L150.75,30.75" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="Group-2" transform="translate(150.000000, 0.000000)">
+                    <g id="meal-planner" transform="translate(0.000000, 141.000000)">
+                        <g id="screen" transform="translate(178.500000, 772.500000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="22.2499863" y="27">Meal </tspan>
+                                    <tspan x="16.9220646" y="42">Library</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="screen" transform="translate(178.500000, 857.500000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="21.1843396" y="27">Input </tspan>
+                                    <tspan x="14.1253659" y="42">food list</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="screen" transform="translate(286.500000, 857.500000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="16.3592934" y="27">Output </tspan>
+                                    <tspan x="16.4166935" y="42">recipes</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="screen" transform="translate(286.500000, 772.000000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="24.5537922" y="27">Add </tspan>
+                                    <tspan x="19.5868054" y="42">Meals</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="screen" transform="translate(39.000000, 815.000000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="22.2499863" y="27">Meal </tspan>
+                                    <tspan x="14.8135441" y="42">Planner</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <path id="Line-3" d="M29.5,846.25 L-0.25,846.25 L-0.25,845.25 L29.5,845.25 L29.5,841.25 L38.5,845.75 L29.5,850.25 L29.5,846.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy" d="M169.5,801.25 L139.75,801.25 L139.75,800.25 L169.5,800.25 L169.5,796.25 L178.5,800.75 L169.5,805.25 L169.5,801.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-3" d="M277.5,801.25 L247.75,801.25 L247.75,800.25 L277.5,800.25 L277.5,796.25 L286.5,800.75 L277.5,805.25 L277.5,801.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-4" d="M277.5,891.25 L247.75,891.25 L247.75,890.25 L277.5,890.25 L277.5,886.25 L286.5,890.75 L277.5,895.25 L277.5,891.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-2" d="M169.5,891.25 L139.75,891.25 L139.75,890.25 L169.5,890.25 L169.5,886.25 L178.5,890.75 L169.5,895.25 L169.5,891.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path d="M140.25,800.75 L140.25,890.75" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                        <path d="M109,845.75 L140.25,845.75" id="Line-5" stroke="#979797" stroke-linecap="square"></path>
+                        <path d="M0.75,0 L0.75,845.25" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    </g>
+                    <g id="friends" transform="translate(0.000000, 646.000000)">
+                        <g id="Group-7" transform="translate(257.000000, 98.500000)">
+                            <polygon id="Polygon" stroke="#979797" points="41.75 -5.68434189e-14 83.5 41.5178571 41.75 83.0357143 0 41.5178571"></polygon>
+                            <text id="Accept-Challenge?" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                <tspan x="24.3362221" y="35">Accept</tspan>
+                                <tspan x="13.6863061" y="50">Challenge?</tspan>
+                            </text>
+                        </g>
+                        <g id="screen" transform="translate(264.000000, 0.000000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="10.3996579" y="27">Push not. </tspan>
+                                    <tspan x="17.4358586" y="42">to Disc</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="Yes" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                            <tspan x="305.336629" y="87">Yes</tspan>
+                        </text>
+                        <text id="No" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                            <tspan x="306.601739" y="190.5">No</tspan>
+                        </text>
+                        <path d="M298.81376,181.536876 L299.182171,191.749004" id="Line-6" stroke="#979797" stroke-linecap="square" transform="translate(299.063760, 186.751162) rotate(2.087984) translate(-299.063760, -186.751162) "></path>
+                        <path d="M179.875,191.75 L298.75,191.75" id="Line-7" stroke="#979797" stroke-linecap="square"></path>
+                        <g id="Group-7" transform="translate(148.000000, 108.500000)">
+                            <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                            <text id="View-Friends-and-Wee" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                <tspan x="2.71358192" y="18.5">View Friends </tspan>
+                                <tspan x="5.52431875" y="33.5">and Weekly </tspan>
+                                <tspan x="9.82434049" y="48.5">Challenge</tspan>
+                            </text>
+                        </g>
+                        <g id="screen" transform="translate(39.000000, 109.500000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="13.7366669" y="27">Friends/</tspan>
+                                    <tspan x="9.32434049" y="42">Challenge</tspan>
+                                    <tspan x="32.3368191" y="57">s</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <path id="Line-3" d="M29.5,140.75 L-0.25,140.75 L-0.25,139.75 L29.5,139.75 L29.5,135.75 L38.5,140.25 L29.5,144.75 L29.5,140.75 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-5" d="M138.5,140.75 L108.75,140.75 L108.75,139.75 L138.5,139.75 L138.5,135.75 L147.5,140.25 L138.5,144.75 L138.5,140.75 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-6" d="M247.5,140.75 L217.75,140.75 L217.75,139.75 L247.5,139.75 L247.5,135.75 L256.5,140.25 L247.5,144.75 L247.5,140.75 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-8" d="M182.375,181.5 L168.625,181.5 L168.625,180.5 L182.375,180.5 L182.375,176.5 L191.375,181 L182.375,185.5 L182.375,181.5 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-7" d="M309.5,80.75 L279.75,80.75 L279.75,79.75 L309.5,79.75 L309.5,75.75 L318.5,80.25 L309.5,84.75 L309.5,80.75 Z" fill="#979797" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="nutrition-info" transform="translate(0.000000, 330.000000)">
+                        <g id="Group" transform="translate(146.500000, 0.000000)">
+                            <g id="Group-7" transform="translate(0.500000, 88.500000)">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="14.6324189" y="21.5">Take pic </tspan>
+                                    <tspan x="27.7209065" y="36.5">for </tspan>
+                                    <tspan x="6.60481727" y="51.5">nutritionist</tspan>
+                                </text>
+                            </g>
+                            <g id="screen" transform="translate(0.000000, 178.000000)">
+                                <g id="Group-7">
+                                    <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                    <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                        <tspan x="22.699205" y="27">Scan </tspan>
+                                        <tspan x="13.6455754" y="42">barcode</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="11.1873505" y="18.5">Manually </tspan>
+                                    <tspan x="17.8136391" y="33.5">search </tspan>
+                                    <tspan x="10.9992402" y="48.5">database</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="screen" transform="translate(38.000000, 89.000000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="11.5367428" y="27">Nutrition </tspan>
+                                    <tspan x="24.7656113" y="42">Info</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <path id="Line-3" d="M29.5,120.25 L-0.25,120.25 L-0.25,119.25 L29.5,119.25 L29.5,115.25 L38.5,119.75 L29.5,124.25 L29.5,120.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-9" d="M138,120.25 L108.25,120.25 L108.25,119.25 L138,119.25 L138,115.25 L147,119.75 L138,124.25 L138,120.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-11" d="M138,210.25 L127.125,210.25 L127.125,209.25 L138,209.25 L138,205.25 L147,209.75 L138,214.25 L138,210.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path d="M127.625,209.75 L127.625,29.75" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                        <path id="Line-3-Copy-10" d="M138,30.25 L127.125,30.25 L127.125,29.25 L138,29.25 L138,25.25 L147,29.75 L138,34.25 L138,30.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="cravings" transform="translate(0.500000, 0.000000)">
+                        <g id="Group-7" transform="translate(253.500000, 99.500000)">
+                            <polygon id="Polygon" stroke="#979797" points="41.75 -5.68434189e-14 83.5 41.5178571 41.75 83.0357143 0 41.5178571"></polygon>
+                            <text id="Worth?" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                <tspan x="23.1738686" y="45">Worth?</tspan>
+                            </text>
+                        </g>
+                        <g id="screen" transform="translate(260.500000, 0.000000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="19.7889538" y="27">Other </tspan>
+                                    <tspan x="14.3278264" y="42">Options</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="push-notif" transform="translate(260.500000, 219.000000)">
+                            <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                            <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                <tspan x="20.8062607" y="19">Push </tspan>
+                                <tspan x="4.31743667" y="34">notification </tspan>
+                                <tspan x="16.1858586" y="49">to Disc</tspan>
+                            </text>
+                        </g>
+                        <g id="screen" transform="translate(374.000000, 111.500000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="27.3517388" y="27">No </tspan>
+                                    <tspan x="16.94203" y="42">Shame</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="No" font-family="OpenSans, Open Sans" font-size="10" font-weight="normal" letter-spacing="-0.138888821" fill="#504E51">
+                            <tspan x="310.599338" y="197">No</tspan>
+                        </text>
+                        <text id="Yes" font-family="OpenSans, Open Sans" font-size="10" font-weight="normal" letter-spacing="-0.138888821" fill="#504E51">
+                            <tspan x="343.716634" y="131.5">Yes</tspan>
+                        </text>
+                        <text id="Other-Options" font-family="OpenSans, Open Sans" font-size="10" font-weight="normal" letter-spacing="-0.138888821" fill="#504E51">
+                            <tspan x="309.067816" y="81">Other Options</tspan>
+                        </text>
+                        <path d="M232,140.25 L232,30.75" id="Line-9" stroke="#979797" stroke-linecap="square"></path>
+                        <path d="M260.5,30.75 L232,30.75" id="Line-10" stroke="#979797" stroke-linecap="square"></path>
+                        <g id="screen" transform="translate(145.500000, 108.000000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="17.5565861" y="27">Collect </tspan>
+                                    <tspan x="10.2340085" y="42">Food Info</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="screen" transform="translate(38.500000, 110.500000)">
+                            <g id="Group-7">
+                                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="69" height="60.5"></rect>
+                                <text id="Home" font-family="OpenSans, Open Sans" font-size="11.5" font-weight="normal" letter-spacing="-0.159722149" fill="#504E51">
+                                    <tspan x="17.3251137" y="27">Report </tspan>
+                                    <tspan x="12.8241913" y="42">Cravings</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <path id="Line-3" d="M29.5,141.25 L-0.25,141.25 L-0.25,140.25 L29.5,140.25 L29.5,136.25 L38.5,140.75 L29.5,145.25 L29.5,141.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-12" d="M137,141.25 L107.25,141.25 L107.25,140.25 L137,140.25 L137,136.25 L146,140.75 L137,145.25 L137,141.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-13" d="M244.5,141.25 L214.75,141.25 L214.75,140.25 L244.5,140.25 L244.5,136.25 L253.5,140.75 L244.5,145.25 L244.5,141.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-14" d="M366,141.75 L336.25,141.75 L336.25,140.75 L366,140.75 L366,136.75 L375,141.25 L366,145.75 L366,141.75 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-15" d="M305.5,201.25 L275.75,201.25 L275.75,200.25 L305.5,200.25 L305.5,196.25 L314.5,200.75 L305.5,205.25 L305.5,201.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                        <path id="Line-3-Copy-16" d="M305.5,81.25 L275.75,81.25 L275.75,80.25 L305.5,80.25 L305.5,76.25 L314.5,80.75 L305.5,85.25 L305.5,81.25 Z" fill="#979797" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
