@@ -203,6 +203,7 @@ footer  {
   #body{
     display:block;
     width:100%;
+    overflow:hidden;
   }
   
   p{
@@ -280,17 +281,35 @@ footer  {
   }
 
   #workflow{
-    display:grid;
-    grid-template-columns: 27% 73%;
-    grid-column-gap: 0.8em;
-    padding:1em 2em;
+    padding:3em;
     color:#616161;
+    text-align:center;
   }
 
+  #workflow h1{
+    font-size:1.5rem;
+    color:#FF7777;
+  }
+
+  #workflow p{
+    width:82%;
+    font-size:1.1rem;
+    margin: .5em auto 0 auto;
+
+  }
+
+  #workflow p:nth-child(2){
+
+  }
+
+  #workflow span{
+    color:#FF7777;
+    text-shadow: .3px .3px #FF7777;
+  }
   .grid_workflow:nth-child(2){
     padding: 0 2em;
     font-weight:700;
-    font-size:.8rem;
+    font-size:1rem;
   }
 
   .grid_workflow h1{
@@ -338,6 +357,17 @@ footer  {
   
 }
 
+.case_grid3{
+  display:grid;
+  width:auto;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 0.8em;
+
+}
+
+.item_flow3 img{
+  width:100%;
+}
 .item_flow2{
   text-align:center;
 }
@@ -375,6 +405,7 @@ footer  {
       background-color:#FF7777;
       color:white;
       font-size:1rem;
+      height:2em;
       clear:both;
     }
     
