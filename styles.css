@@ -292,7 +292,7 @@ footer  {
   }
 
   #workflow p{
-    width:82%;
+    width:100%;
     font-size:1.1rem;
     margin: .5em auto 0 auto;
 
@@ -366,7 +366,7 @@ footer  {
 }
 
 .item_flow3 img{
-  width:100%;
+  width:15em;
 }
 .item_flow2{
   text-align:center;
