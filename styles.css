@@ -413,7 +413,14 @@ footer  {
 }/*End of Query*/
 
 
-
+/*Tablet*/
+@media screen and (min-width: 900px) {
+      #profile{
+        width:20%;
+        padding-top:10em;
+        margin-bottom:-2.5em;
+      }
+}
 
 
 /* Scroll 
