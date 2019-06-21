@@ -342,7 +342,7 @@ footer  {
   }
 
   #steps p, .takeaway, #more p{
-    font-size:.8rem;
+    font-size:1rem;
   }
   .item_flow{
     text-align:center;
@@ -389,7 +389,7 @@ footer  {
 
   .takeaway{
       font-weight:800;
-      padding: 0 2em;
+      padding: 1em 3em;
   }
 
 .takeaway span{
