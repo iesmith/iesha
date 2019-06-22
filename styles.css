@@ -221,7 +221,8 @@ footer  {
     text-align:center;
     background-image: url('images/top_bg.png');
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:auto;
+    background-position: 0em -15em;
     overflow:hidden;
   }  
 
@@ -237,6 +238,19 @@ footer  {
    font-weight:600;
    padding-top: 1em;
    margin-top:.5em;
+}
+
+#top_grid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.topgrid_item{
+
 }
   #profile{
     width:15em;
@@ -270,32 +284,32 @@ footer  {
 
   #one{
     position:absolute;
-    right:14%;
-    bottom:62%;
+    right:15%;
+    bottom:50%;
   }
 
   #two{
     position:absolute;
-    left:3%;
-    top:12%;
+    left:64%;
+    top:17%;
   }
 
   #three{
     position:absolute;
-    top:3%;
-    left:16%;
+    top:15%;
+    left:56%;
   }
 
   #four{
     position:absolute;
-    top:7%;
-    right:5%;
+    top:18%;
+    right:23%;
   }
 
   #five{
     position:absolute;
     top:27%;
-    left:19%;
+    left:52%;
   }
 
   #workflow{
@@ -470,10 +484,29 @@ footer  {
 /*Desktop*/
 @media screen and (min-width: 900px) {
       #profile{
-        width:20%;
+        width:21em;
         padding-top:10em;
         margin-bottom:-2.5em;
       }
+      
+      .figure img{
+        width:73px;
+      }
+      
+      #top_grid{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+        
+      }
+      
+      .topgrid_item{
+      
+      }
+      
+
 }
 
 
