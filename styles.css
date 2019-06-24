@@ -301,8 +301,8 @@ footer  {
 
   #four{
     position:absolute;
-    right:69em;
-    bottom:22em;
+        left:33%;
+        bottom:40%;
     
   }
 
@@ -503,7 +503,9 @@ footer  {
 
       }
       #four{
-
+        position:absolute;
+        left:33%;
+        bottom:40%;
       }
       #five{
         top:67%;
@@ -523,7 +525,23 @@ footer  {
       #top p{
         font-size:1.2rem;
       }
-    
+
+      #steps{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      
+     .item_flow3 {
+       width:70%;
+       margin-left:auto;
+       margin-right:auto;
+     }
+
+      .item_flow3 img{
+        width:103%;
+
+      }
       
 
 }
