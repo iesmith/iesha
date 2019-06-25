@@ -6,13 +6,14 @@
 -->
 <head>
     <title>Iesha's Landing Page</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.3.5/Tween.js"></script>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Iesha, Smith, Lynae, Iesha Smith, Iesha Lynae, Product Designer, UX, Product Manager, Web Design">
     <meta name="description" content ="My name is Iesha Lynae Smith. I work to help design and manage products during the full product lifecycle.">
     <meta name="robots" content ="index,follow">
     <link rel="stylesheet" type="text/css" href="styles.css">  
+    <script src="myscript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600&display=swap" rel="stylesheet"/> 
 </head>
 <body>
@@ -76,7 +77,7 @@
         <div class="figure"><image id="three" src="images/axure_icon.png"></div>  
         <div class="figure"><image id="four" src="images/Procreate-Icon.png"></div>  
     </div>
-    <hr>
+
 <div id ="workflow">
     <h1>How I Work</h1>
     <p>To get a sense of <span>how I think</span> and <span>solve problems</span> let's jump right into my workflow!<br>
@@ -84,14 +85,22 @@
         adopt healthy eating habits.</p>
     
 </div><!--workflow end-->
-<hr>
+
 <div id="steps">
+        <div class="buttons">
+               <div class="contain"><a href='javascript:void();' onclick="toggleVisibility('step1');"><div class="icon_img"><img src="images/blueprint.svg"></div> <div class="icon.label"> Step 1</div></a> </div>
+               <div class="contain"><a href='javascript:void();' onclick="toggleVisibility('step2');"><div class="icon_img"><img src="images/smartphone.svg"></div><div class="icon.label"> Step 2</div></a></div>
+               <div class="contain"><a href='javascript:void();' onclick="toggleVisibility('step3');"><div class="icon_img"><img src="images/analyze.svg"></div><div class="icon.label"> Step 3</div></a></div>
+              </div>
 <div id="step1">   
 <h1>Step 1: Identify problem(s), hypothesize, and create empathy</h1>
 <div class="case_grid">
-    <div class="item_flow"><img src="images/step1/ideate.jpg"></div>
-    <div class="item_flow"><img src="images/step1/notes.jpg"></div>
-    <div class="item_flow"><img src="images/step1/bobby.png"></div>
+    <div class="item_flow"><img class="desktop" src="images/step1/ideate.jpg"></div>
+    <div class="item_flow"><img class="desktop" src="images/step1/notes.jpg"></div>
+    <div class="item_flow"><img class="desktop" src="images/step1/bobby.png"></div>
+    <div class="item_flow"><img class="mobile" src="images/step1/board.png"></div>
+    <div class="item_flow"><img class="mobile" src="images/step1/features.png"></div>
+    <div class="item_flow"><img class="mobile" src="images/step1/persona.png"></div>
     <div class="item_flow"><p>Ideation</p></div>
     <div class="item_flow"><p>Further defining requirements</p></div>
     <div class="item_flow"><p>Persona</p></div>
@@ -112,13 +121,15 @@ and ability to report and help fight cravings all within the same community.</p>
 <p class="details">Since the app relies on continous engagement to be successful, I"m also mindful of what the 'hook' will be for the platform to become a regular habit
 for users. </p> 
 </div> <!--End Step 1 -->  
-<hr>   
-<div id="step2">
+<div id="step2" class="invis">
 <h1>Step 2: Build MVP</h1>
 <div class="case_grid2">
-<div class="item_flow2"><img src="images/step2/user flow.png"></div>
-<div class="item_flow2"><img src="images/step2/wireframes2.png"></div>
-<div class="item_flow2"><img src="images/step2/Elements2.png"></div>
+<div class="item_flow2"><img class ="mobile" src="images/step2/user flow.png"></div>
+<div class="item_flow2"><img class ="mobile"  src="images/step2/wireframes2.png"></div>
+<div class="item_flow2"><img class ="mobile" src="images/step2/Elements2.png"></div>
+<div class="item_flow2"><img class ="desktop" src="images/step2/User Flow_L.png"></div>
+<div class="item_flow2"><img class ="desktop"  src="images/step2/wireframesL.png"></div>
+<div class="item_flow2"><img class ="desktop" src="images/step2/ElementsL.png"></div>
 <div class="item_flow2"><p>Flow Map</p></div>
 <div class="item_flow2"><p>Wireframes</p></div>
 <div class="item_flow2"><p>Mini Style Guide</p></div>
@@ -135,8 +146,8 @@ for users. </p>
     feedback on this tool specifically will validate or invalidate whether this may be a useful part of the platform. </p>
 
 </div> <!--End Step 2-->
-<hr>
-<div id="step3">
+
+<div id="step3" class="invis">
         <h1>Step 3: Test, analyze results, and reiterate</h1>
         <div class="case_grid3">
         <div class="item_flow3"><img src="images/step3/prototype2.gif"></div>
@@ -172,7 +183,7 @@ In conclusion, more testing is needed <em>(as always!)</em> but the Cravings Too
         </p>
        </div> <!--End of Step 3--> 
 </div>     
- <hr>
+<hr>
  <div id="more">
      <h1>More About Me</h1>
     <p>In my current position I work closely with product leadership to help design solutions, 
@@ -186,6 +197,7 @@ In conclusion, more testing is needed <em>(as always!)</em> but the Cravings Too
     <p><em>My other interests: Drawing; Reading obscure Russian novels; Digital illustration; 
         team based computer games; animation , </em></p>
 </footer>
+<div class="invis">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </div>
 </body>
 </html>

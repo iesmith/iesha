@@ -18,7 +18,8 @@ body{
     padding:0;
     font-size:.75em;
     font-family: 'Open Sans', sans-serif;
-    bacgrkound-color:#f3f6fb;
+    background-color:#f3f6fb;
+   
 }
 
 #body{
@@ -365,6 +366,13 @@ footer  {
     padding-bottom:2em;
   }
 
+  .desktop{
+    display:none;
+  }
+
+  .buttons{
+    display:none;
+  }
   #step1, #step2, #step3{
     padding-bottom:2em;
   }
@@ -523,6 +531,11 @@ footer  {
         margin-top:3em;
       }
       
+      #steps h1, #more h1{
+        font-size:1.1rem;
+        padding:3em;
+        text-align:center;
+      }
       #top p{
         font-size:1.2rem;
       }
@@ -533,6 +546,33 @@ footer  {
         margin-right:auto;
       }
       
+      .invis{
+        display:none;
+      }
+
+      .buttons{
+       display:inherit;
+      }
+
+  
+
+      .contain{
+       
+        border: 1px solid #dedee6;
+        background:white;
+      }
+
+      .icon_img{
+        
+      }
+
+      .icon_img{
+        width:5em;
+      }
+
+      .icon.label{
+
+      }
       .item_flow p{
         font-size:.9rem;
       }
@@ -540,6 +580,15 @@ footer  {
       .item_flow img{
         width:100%;
         border-radius:1em;
+        border:2px solid #dadee6;
+      }
+
+      .desktop{
+        display:inherit;
+      }
+
+      .mobile{
+        display:none;
       }
      .item_flow3 {
        width:70%;
