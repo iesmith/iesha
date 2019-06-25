@@ -532,6 +532,14 @@ footer  {
         margin-right:auto;
       }
       
+      .item_flow{
+
+      }
+
+      .item_flow img{
+        width:29em;
+        border-radius:1em;
+      }
      .item_flow3 {
        width:70%;
        margin-left:auto;
