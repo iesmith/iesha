@@ -789,10 +789,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
       }
 
       #me_grid{
-        display:flex;
+        display:grid;
+        grid-template-columns: 14% 86%;
       }
       #face{
-        width:13%;
+        width:100%;
       }
 
       #more p{
