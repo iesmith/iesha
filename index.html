@@ -6,15 +6,18 @@
 -->
 <head>
     <title>Iesha's Landing Page</title>
-   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Iesha, Smith, Lynae, Iesha Smith, Iesha Lynae, Product Designer, UX, Product Manager, Web Design">
     <meta name="description" content ="My name is Iesha Lynae Smith. I work to help design and manage products during the full product lifecycle.">
     <meta name="robots" content ="index,follow">
-    <link rel="stylesheet" type="text/css" href="styles.css">  
+    <link rel="stylesheet" type="text/css" href="styles.css"/>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/noelboss/featherlight@master/src/featherlight.css" type="text/css" rel="stylesheet" />
     <script src="myscript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600&display=swap" rel="stylesheet"/> 
+
+    <script src="https://cdn.jsdelivr.net/gh/noelboss/featherlight@master/src/featherlight.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
  <div id="mobile_body">
@@ -70,19 +73,23 @@
         I am a designer with a passion for solving big problems. <br> I'm currently a product manager for Diasyst, a health
     IT company seeking to simplify diabetes management for doctors and patients.</p></div> 
     <div id="links">
-            <a href="#">Resume</a>
-            <a class="bullet" href="#">LinkedIn</a>
-            <a class="bullet" href="#">GitHub</a>
+            <a href="#"> Resume</a>
+
+            <a href="#">LinkedIn</a>
+          
         </div>
+        <div id="floaties">
+                <div class="figure"><image id="one" src="images/invision.svg"></div>
+                <div class="figure"><image id="five" src="images/sketch.svg"></div>
+                <div class="figure"><image id="two" src="images/abstract.svg"></div>   
+                 
+                <div class="figure"><image id="four" src="images/procreate.svg"></div>  
+                <div class="figure"><image id="six" src="images/AI.svg"></div>  
+                <div class="figure"><image id="seven" src="images/PS.svg"></div> 
+                   </div>      
     <div class="topgrid_item"> <img id="profile" src="images/face.svg"></div>
     </div>
-        <div class="figure"><image id="one" src="images/invision.svg"></div>
-        <div class="figure"><image id="five" src="images/sketch.svg"></div>
-        <div class="figure"><image id="two" src="images/abstract.png"></div>   
-        <div class="figure"><image id="three" src="images/axure_icon.svg"></div>  
-        <div class="figure"><image id="four" src="images/Procreate-Icon.svg"></div>  
-        <div class="figure"><image id="six" src="images/AI.svg"></div>  
-        <div class="figure"><image id="seven" src="images/PS.svg"></div>      
+
     </div>
 
 <div id ="workflow">
@@ -90,7 +97,7 @@
     <p>To get a sense of <span>how I think</span> and <span>solve problems</span> let's jump right into my workflow!<br>
     What follows is a case study for an app to help users
         adopt healthy eating habits.</p>
-        <div class="icon-scroll"></div>
+        <!--<div class="icon-scroll"></div>-->
     
 </div><!--workflow end-->
 
@@ -105,7 +112,8 @@
 <div id="step1">   
 <h1>Step 1: Identify problem(s), hypothesize, and create empathy</h1>
 <div class="case_grid">
-    <div class="item_flow"><img class="desktop" src="images/step1/ideate.jpg">
+    <div class="item_flow">
+        <a data-featherlight="images/step1/ideate.jpg" href="#"><img class="desktop" src="images/step1/ideate.jpg"></a>
     </div>
             
     <div class="item_flow"><img class="desktop" src="images/step1/notes.jpg"></div>
@@ -210,5 +218,6 @@ In conclusion, more testing is needed <em>(as always!)</em> but the Cravings Too
 </footer>
 <div class="invis">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </div>
+
 </body>
 </html>
