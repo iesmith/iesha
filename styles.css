@@ -214,6 +214,11 @@ footer  {
   #links{
     width:35%;
   }
+
+  .biglink{
+    font-size:1rem;
+    font-weight:700;
+  }
   p{
     color:#616161;
     line-height:1.6em;
@@ -758,6 +763,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
         grid-template-columns: 20% 73%;
         width:94%;
         padding:0 3em;
+      }
+
+      #more{
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+      #me_grid{
+        display:flex;
+      }
+      #face{
+        width:13%;
+      }
+
+      #more p{
+        text-align:left;
       }
 } /*End of query*/
 
