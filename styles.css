@@ -219,6 +219,15 @@ footer  {
     font-size:1rem;
     font-weight:700;
   }
+
+  .biglink:hover, .item_flow2 a:hover{
+    color:#313233;
+  }
+
+  .item_flow2 a{
+    font-size: .9rem;
+  }
+
   p{
     color:#616161;
     line-height:1.6em;
@@ -529,18 +538,22 @@ footer  {
   text-align:center;
 }
     footer{
-      padding:1em;
+      padding:2em;
       background-color:#FF7777;
       color:white;
       font-size:1rem;
-      height:4em;
+    
       clear:both;
+      text-align:center;
     }
 
     footer p{
       color: white;
     }
     
+    .port:hover{
+      color:black;
+    }
 
 }/*End of Query*/
 
@@ -737,7 +750,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
 
 
       #resize{
-        width:236%;
+        width:151%;
       }
       .case_grid, .case_grid2{
         grid-column-gap:5%;
@@ -753,6 +766,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
       .case_grid3{
 
 
+      }
+
+      #back{
+        margin-right:4em;
       }
       .details {
         width:80%;
@@ -780,6 +797,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
 
       #more p{
         text-align:left;
+      }
+
+      .port{
+        text-align:center;
+      }
+
+      footer p{
+        font-size:1rem;
       }
 } /*End of query*/
 
