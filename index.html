@@ -1,23 +1,228 @@
 <!DOCTYPE html>
+<!--
+ (\_/)
+ (o.o)
+ (___)0
+-->
 <head>
-    <title>Iesha Smith Website </title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.3.5/Tween.js"></script>
+    <title>Iesha's Landing Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Iesha, Smith, Lynae, Iesha Smith, Iesha Lynae, Product Designer, UX, Product Manager, Web Design">
     <meta name="description" content ="My name is Iesha Lynae Smith. I work to help design and manage products during the full product lifecycle.">
-    <meta name="robots" content ="index,follow"></meat>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="robots" content ="index,follow">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/noelboss/featherlight@master/src/featherlight.css" type="text/css" rel="stylesheet" />
+    <script src="myscript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600&display=swap" rel="stylesheet"/> 
+
+    <script src="https://cdn.jsdelivr.net/gh/noelboss/featherlight@master/src/featherlight.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-<main>
-<div id="hero_content"> <p>Hi! My name is Iesha Smith. I work with products from conceptualization, to launch, and back again for reiteration.</p> 
-<div id="links"><a href="#">LinkedIn</a> <a href="a">Resume</a></div> 
-<div id="more">More</div>
+ <div id="mobile_body">
+     <div id="mobile_top">
+        <h1>Hello!</h1> 
+        <p>My name is <span class="color_turn">Iesha Smith</span>. <br>
+            I am currently a <span class="color_turn">product manager</span> for Diasyst.</p>
+        <div class="grid_nav"><a class="grid_item" href="">Resume</a> <a class="grid_item" href="https://www.linkedin.com/in/ieshasmith/">LinkedIn</a> <a class="grid_item" href="#mobile_about">About</a></div>
+    </div>
+    <hr>
+<div id ="mobile_workflow">
+    <h1>My Workflow</h1>
+<div class="grid_mobflow">
+    <div class="item_mobflow"><img src="images/mobile_step1.png"></div>
+    <div style="margin-top:2em;"class="item_mobflow">
+    <h2>Step 1: Identity problem(s), hypothesize, and create empathy </h2>
+    <p>In this phase we list out assumptions and questions, build empathy, and 
+        define success and failure metrics for testing.</p>
+    </div>
+    <div class="item_mobflow"><img style="padding-top:2em;" src="images/mobile_step2.png"></div>
+    <div class="item_mobflow">
+    <h2>Step 2: Build MVP </h2>
+    <p>The phase where we build the minimum viable product to validate our ideas. This is where tools like Sketch or Axure come in handy!</p>
+        </div>
+    <div class="item_mobflow"><img style="padding-top:2em;" src="images/mobile_step3.png"></div>
+        <div class="item_mobflow">
+        <h2>Step 3: Test, analyze results and reiterate</h2>
+        <p>After examining user data and feedback, ideas are either validated or
+             invalidated and new ideas arise. The workflow then begins again! :)</p>
+    </div>
+    </div> 
+ </div> 
+
+ <hr>
+ <div id="mobile_about">
+     <h2>More About Me</h2>
+    <p>In my current position I work closely with product leadership to help design solutions, produce and maintain technical documentation, 
+        manage our design system, create test cases for QA, and help prioritize features for our product roadmap. <br> <br>
+            Feel free to reach out to me!</p>
+ </div>
+ <a id="back" href="#mobile_top">Back To Top</a>
+<footer>
+    <p><em>My other interests: Drawing, gaming, animation, reading (favorite book is Crime and Punishment)</em></p>
+</footer>
+</div> <!--End of Mobile body-->
+
+<div id="body"> <!--Tablet/Desktop-->
+     <div id="top">
+    <div id="top_grid">
+        <div class="topgrid_item">
+        <h1>Hello!</h1> 
+        <p>My name is Iesha Smith. <br>
+        I am a designer with a passion for solving big problems. <br> I'm currently a product manager for Diasyst, a health
+    IT company seeking to simplify diabetes management for doctors and patients.</p></div> 
+    <div id="links">
+            <a href="#"> Resume</a>
+
+            <a href="https://www.linkedin.com/in/ieshasmith/">LinkedIn</a>
+          
+        </div>
+        <div id="floaties">
+                <div class="figure"><image id="one" src="images/invision.svg"></div>
+                <div class="figure"><image id="five" src="images/sketch.svg"></div>
+                <div class="figure"><image id="two" src="images/abstract.svg"></div>   
+                 
+                <div class="figure"><image id="four" src="images/procreate.svg"></div>  
+                <div class="figure"><image id="six" src="images/AI.svg"></div>  
+                <div class="figure"><image id="seven" src="images/PS.svg"></div> 
+                   </div>      
+    <div class="topgrid_item"> <img id="profile" src="images/face.svg"></div>
+    </div>
+
+    </div>
+
+<div id ="workflow">
+    <h1>How I Work</h1>
+    <p>To get a sense of <span>how I think</span> and <span>solve problems</span> let's jump right into my workflow!<br>
+    What follows is a case study for an app to help users
+        adopt healthy eating habits.</p>
+        <!--<div class="icon-scroll"></div>-->
+    
+</div><!--workflow end-->
+
+<div id="steps">
+    <div id="wrap_top">
+        <div class="buttons">
+               <div class="contain"><a href='javascript:void();' onclick="toggleVisibility('step1');"><div class="icon_img"><img style="width:100%;"src="images/blueprintP.svg"></div> <div class="icon_label"> Step 1</div></a> </div>
+               <div class="contain"><a href='javascript:void();' onclick="toggleVisibility('step2');"><div class="icon_img"><img style="width:100%;" src="images/smartphoneP.svg"></div><div class="icon_label"> Step 2</div></a></div>
+               <div class="contain"><a href='javascript:void();' onclick="toggleVisibility('step3');"><div class="icon_img"><img style="width:100%;" src="images/analyzeP.svg"></div><div class="icon_label"> Step 3</div></a></div>
+              </div>
+            </div>
+<div id="step1">   
+<h1>Step 1: Identify problem(s), hypothesize, and create empathy</h1>
+<div class="case_grid">
+    <div class="item_flow">
+        <a data-featherlight="images/step1/ideate.jpg" href="#"><img class="desktop" src="images/step1/ideate.jpg"></a>
+    </div>
+            
+    <div class="item_flow"><a data-featherlight="images/step1/notes.jpg" href="#"><img class="desktop" src="images/step1/notes.jpg"></a>
+    </div>
+    <div class="item_flow"><a data-featherlight="images/step1/bobby.png" href="#"><img class="desktop" src="images/step1/bobby.png"></a>
+    </div>
+
+    <div class="item_flow"><img class="mobile" src="images/step1/board.png"></div>
+    <div class="item_flow"><img class="mobile" src="images/step1/features.png"></div>
+    <div class="item_flow"><img class="mobile" src="images/step1/persona.png"></div>
+    <div class="item_flow"><p>Ideation</p></div>
+    <div class="item_flow"><p>Further defining requirements</p></div>
+    <div class="item_flow"><p>Persona</p></div>
+</div>
+<p class="details">In this case study I focused on the main problem of unhealthy eating habits.
+    I started out by listing all related problems, assumptions about behaviors, key success metrics, 
+    and product features.
+    The following are my main takeaways from this step.</p> <br>
+
+<div class="takeaway_grid"><span>HYPOTHESIS:</span> <p>Increased personal accountability, community engagement, 
+and incremental changes will lead users to make healthier eating choices.</p>
+</div> <br>
+
+<div class="takeaway_grid"><span>HOW:</span> <p>Users with the same goals engage in community discord, 
+participate in weekly challenges; users are also given the ability to communicate with a certified nutritionist 
+and ability to report and help fight cravings all within the same community.</p></div> <br>
+
+<p class="details">Since the app relies on continous engagement to be successful, I"m also mindful of what the 'hook' will be for the platform to become a regular habit
+for users. </p> 
+</div> <!--End Step 1 -->  
+<div id="step2" class="invis">
+<h1>Step 2: Build MVP</h1>
+<div class="case_grid2">
+<div class="item_flow2"><img class ="mobile" src="images/step2/user flow.png"></div>
+<div class="item_flow2"><img class ="mobile"  src="images/step2/wireframes2.png"></div>
+<div class="item_flow2"><img class ="mobile" src="images/step2/Elements2.png"></div>
+<div class="item_flow2"><a data-featherlight="images/step2/User Flow_L.png" href="#"><img class ="desktop" src="images/step2/User Flow_L.png"></a></div>
+<div class="item_flow2"><a data-featherlight="images/step2/wireframesL.png" href="#"><img class ="desktop"  src="images/step2/wireframesL.png"></a></div>
+<div class="item_flow2"><a data-featherlight="images/step2/ElementsL.png" href="#"><img class ="desktop" id="resize" src="images/step2/ElementsL.png"></a></div>
+<div class="item_flow2"><p>Flow Map</p></div>
+<div class="item_flow2"><p>Wireframes</p></div>
+<div class="item_flow2"><p>Mini Style Guide</p></div>
+</div>
+<p class="details">After mapping out the user flow for the platform, I decided to validate my hypothesis 
+    by focusing on getting feedback on the Report Cravings Tool.</p> <br>
+    
+    <div class="takeaway_grid"><span>GOAL:</span> <p> This tool will allow users to report anytime they are craving something unhealthy. 
+        Users will have the option to 'resist', to 'succumb', or 'view alternative options'.
+        The success metric for this tool is that over time there are more cravings reported as "Resisted" vs
+        "Succumbed to".</p>
+</div> <br>    
+<p class="details">This feature lends to the <em> increase in personal accountability </em> of my hypothesis and getting
+    feedback on this tool specifically will validate or invalidate whether this may be a useful part of the platform. </p>
+
+</div> <!--End Step 2-->
+
+<div id="step3" class="invis">
+        <h1>Step 3: Test, analyze results, and reiterate</h1>
+        <div class="case_grid3">
+        <div class="item_flow3"><img src="images/step3/prototype2.gif"></div>
+        <div class="item_flow3"><a data-featherlight="images/step3/v1.png" href="#"><img src="images/step3/v1.png"></a></div>
+        <div class="item_flow3"><a data-featherlight="images/step3/v2.png" href="#"><img src="images/step3/v2.png"></a></div>
+        <div class="item_flow3"><a data-featherlight="images/step3/v2.png" href="#"><img src="images/step3/v3.png"></a></div>
+        <div class="item_flow2"><a href="https://invis.io/Z2SMAB5M9WQ">View Prototype</a></div>
+        <div class="item_flow2"><p>Home Version 1</p></div>
+        <div class="item_flow2"><p>Home Version 2</p></div>
+        <div class="item_flow2"><p>Home Version 3</p></div>
+        </div>
+<p class="details">After completing the prototype for the Cravings Tool and coming up with a few variations of the home page I felt comfortable to get some feedback.
+    Users were asked to compare the multiple design varations of the homepage and were also given a link to test out the prototype.Participants used the prototype when they wanted
+    to eat something unhealthy (this includes snacks high in fat and sugar, and fast food). <br>
+    <a class="biglink" href="https://invis.io/Z2SMAB5M9WQ">Click Here To View Prototype</a><br>
+</p> <br>
+<div class="takeaway_grid"><span>RESULTS:</span> <p> Four out of five participants were swayed away from their cravings and all were interested in 
+    learning more about the full platform.  Version 3 of the homepage beat out Version 2 by a slim margin.</p>
+        </div> <br>       
+<div class="takeaway_grid"><span>Prototype Notes:</span> <p>Knowing that the 'nutritionist' would be
+            monitoring their decisions made users feel they should think more about their food choices. 
+            Also, a suggestion was made to allow for push notifications at certain day/times that ask if user's are craving, since times like 
+            weekends are when people tend to over-indulge. The one participant who still indulged their cravings experienced the moral licensing effect; because she put in
+            more effort into exercising that day she felt she deserved her sweet snack. </p></div>
+
+<div class="takeaway_grid"><span>Homepage Notes:</span><p>Three participants liked Homepage Version 3 mostly due to it's "clean" look, while the other two favored 
+            Version 2 becuase of the vibrant and inviting color. No one seemed to like Version 1 as much :( </p>
+                </div> <br>                   
+<p class="details">
+In conclusion, more testing is needed <em>(as always!)</em> but the Cravings Tool has not been invalidated so far and may prove to be a useful addition to the platform.
+        </p>
+       </div> <!--End of Step 3--> 
+</div>     
+ <div id="more">
+     <h1>More About Me</h1>
+  <div id="me_grid">
+        <img id="face" src="images/about image.png">
+    <p>In my current position I work closely with product leadership to help design solutions, 
+        produce and maintain technical documentation, manage our design system, create test cases for QA,
+         and help prioritize features for our product roadmap. 
+      I've previously worked as a freelance web designer and as a UX designer for Coca-Cola. <br>
+           Check out my resume and feel free to reach out to me! :)</p>
+</div>    
+<a href="https://www.dropbox.com/sh/3puk7gorc5gvpc5/AAC7K_DjvhEfUN_YckeOWoRCa?dl=0"><h3 class="port"> Click Here For More Portfolio Pieces</h3></a>         
+ </div>
+ <a id="back" href="#top">Back To Top</a>
+<footer>
+    <p><em>My other interests: Drawing; Reading obscure Russian novels; Digital illustration; 
+        video games; animation </em></p>
+</footer>
+<div class="invis">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </div>
 
-
-
-</main>
 </body>
 </html>
