@@ -648,7 +648,7 @@ footer  {
 
         padding-bottom:5em;
         background-color:#fff;
-        border:1px solid #f3f6fb;
+        border:1px solid #e2e2e2;
         border-radius:2em;
       }
       #top{
@@ -806,6 +806,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
 
       footer p{
         font-size:1rem;
+      }
+
+      .next, .previous{
+        width:8%;
+        text-align:center;
+        height:28px;
+        background:#FF7777;
+        border-radius:6em;
+        padding:.5em;
+        margin:1em;
+        border:1px solid #dadee6;
+        box-shadow: 2px 2px #f3eaea;
+      }
+      .next p, .previous p{
+        color:white;
+        margin-top:2%;
+      }
+      .previous{
+        float:left;
+      }
+      .next{
+        float:right;
       }
 } /*End of query*/
 
