@@ -251,10 +251,11 @@ footer  {
 
   #links{
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     margin-right:auto;
     margin-left:auto;
-    width:17%;
+    width:20%;
+    grid-column-gap: 16%;
     padding:1.2em 0;
     font-size:1.2em;
   }
@@ -530,7 +531,7 @@ footer  {
 
 #more h1{
   text-align:center;
-  padding: 1em 2em;
+  padding: 2em 3em 1em 3em !important;
 }
 
 #more p{
@@ -557,6 +558,9 @@ footer  {
 
 }/*End of Query*/
 
+#face{
+  width:120px;
+}
 
 /*Desktop*/
 @media screen and (min-width: 900px) {
@@ -568,7 +572,7 @@ footer  {
   { height: 90%; }
 
   #floaties{
-    display:block;
+    display:flex;
   }
   #profile{
         min-width: 24em;
@@ -792,9 +796,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
         display:grid;
         grid-template-columns: 14% 86%;
       }
-      #face{
-        width:100%;
-      }
+      
 
       #more p{
         text-align:left;
