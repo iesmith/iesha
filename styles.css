@@ -1079,5 +1079,6 @@ display:flex;
 @-moz-document url-prefix() {
   #profile {
     padding-top:5em;
+    margin-bottom:-3.5%;
   }
 }
