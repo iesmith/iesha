@@ -1065,3 +1065,15 @@ display:flex;
 #socials a{
   width:25%;
 }
+
+/* On screens that are 1500px or less*/
+@media screen and (min-width: 1500px) {
+#profile{
+  padding-top:5em;
+  margin-bottom:-4%;
+
+}
+
+
+
+}
