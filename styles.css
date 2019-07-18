@@ -1066,8 +1066,8 @@ display:flex;
   width:25%;
 }
 
-/* On screens that are 1500px or less*/
-@media screen and (min-width: 1500px) {
+/* On screens that are 1500px or more*/
+@media screen and (max-height: 800px) {
 #profile{
   padding-top:5em;
   margin-bottom:-4%;
