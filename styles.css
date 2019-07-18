@@ -624,6 +624,7 @@ footer  {
       }
       #top{
         padding-top:0;
+        position:relative;
       }
 
       #wrap_top{
