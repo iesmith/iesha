@@ -1073,3 +1073,10 @@ display:flex;
   margin-bottom:-4%;
 
 }
+}
+
+@-moz-document url-prefix() {
+  #profile {
+    padding-top:5em;
+  }
+}
