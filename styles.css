@@ -236,7 +236,7 @@ footer  {
   }
 
   .item_flow2 a{
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
   p{
@@ -412,7 +412,7 @@ footer  {
 
   .item_flow p, .item_flow2 p{
     width:auto;
-    font-size:.8rem;
+    font-size:1rem;
     color:#CF5C5c;
     
   }
@@ -433,26 +433,27 @@ footer  {
   display:grid;
   width:auto;
   grid-template-columns: auto auto auto auto;
-  grid-column-gap: 0.4em;
   padding:2em;
 
 }
 
 .takeaway_grid{
   display:grid;
-  grid-template-columns: 17% 73% ;
-  width:90%;
+  grid-template-columns: 15% 75% ;
+  width:auto;
   font-weight:800;
   grid-column-gap: 2em;
-  padding: 1em 3em;
+  padding: .5em 4em;
   margin-left:auto;
   margin-right:auto;
 }
 
 .takeaway_grid span{
   color:#CF5C5C;
-  font-size:.9rem;
+  font-size:1rem;
   text-align:right;
+  font-weight:600;
+  font-style:italic;
   
 }
 
@@ -698,7 +699,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
         box-shadow: 2px 2px #e6e6e6;
       }
       .item_flow2 img, .item_flow3 img{
-        width:100%;
+        width:86%;
       }
 
       .item_flow2{
@@ -742,9 +743,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', end
         margin-right:auto;
       }
       .takeaway_grid{
-        grid-template-columns: 20% 73%;
-        width:94%;
-        padding:0 3em;
+        grid-template-columns: 15% 75%;
+        width:auto;
+        padding: .5em 4em;
+        text-align:left;
+      }
+
+      .takeaway_grid p{
+        font-size:1rem;
+        font-weight:600;
       }
 
       #more{
@@ -892,11 +899,11 @@ nav img{
 }
 
 .project_description{
-  width:56%;
+  width:80%;
   margin-left:auto;
   margin-right:auto;
   font-size:1rem;
-  padding-bottom:2em;
+  padding:2em 0;
 }
 
 #ptlist{
@@ -1065,6 +1072,52 @@ display:flex;
 
 #socials a{
   width:25%;
+}
+
+/*Workflow*/
+
+.worksteps{
+  display:flex;
+  width: 59%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom:3em;
+}
+
+.work_links {
+  font-size:1.1rem;
+}
+
+
+.worksteps img{
+  width:85%;
+  margin:auto;
+  padding-bottom:.7em;
+}
+
+.case_title{
+  color:#E58686;
+  font-size:2rem;
+  padding-bottom:.5em;
+
+} 
+
+
+.work{
+  font-size: 1rem;
+  padding: 1em 0;
+  width:86%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.workflow_project h1{
+  padding-bottom:2em;
+  font-size:1.3rem;
+  font-weight:600;
+  color:#CF5C5C;
+
 }
 
 /* On screens that are 1500px or more*/
