@@ -21,6 +21,6 @@ body{
     background-color: #f3f6fb;
 }
 
-iframe{
-  height:100vh;
+#full-width{
+  height:100vh !important;
 }
