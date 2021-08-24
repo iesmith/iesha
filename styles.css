@@ -19,7 +19,7 @@ body{
     font-size:.75em;
     font-family: 'Open Sans', sans-serif;
     background-color: #f3f6fb;
-    overflow:hidden;
+    overflow:hidden !important;
 }
 
 #full-width{
